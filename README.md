@@ -1,29 +1,32 @@
-Examples scripts on creating new subsets of Full WiSig
+## Overview
+Scripts to create new compact subsets using the [WiSig dataset](https://cores.ee.ucla.edu/downloads/datasets/wisig).
 
 
-
-Note that the MILP solver requires a GUROBI Licence
+## Requirement
+The MILP solver requires a GUROBI Licence
 License can be obtained for free for academic users
 https://www.gurobi.com/downloads/end-user-license-agreement-academic/
 
-## Jupyter Notebooks:
+## Directory Description
 
-001_create_tx_rx_list.ipynb: Shows an example of how to generate the Tx Rx list given a  required number of  Tx, a minimum number of signals, and a satisfiaction rate
+### Jupyter Notebooks
 
-002_FullWiSig_create_compact_datasets.ipynb: Files
+`001_create_tx_rx_list.ipynb`: Shows an example of how to generate the Tx Rx list given a  required number of  Tx, a minimum number of signals, and a satisfiaction rate
 
-## Python Files
+`002_FullWiSig_create_compact_datasets.ipynb`: Files
 
-tx_rx_list_creator_heuristic.py: Contains heuristic function
+### Python Files
 
-tx_rx_list_creator_milp.py: Contain MILP solver
+`tx_rx_list_creator_heuristic.py`: Contains heuristic function
 
-data_utilities.py: Functions to create a new dataset. Also it can be used load the dataset and prepare it for classification
+`tx_rx_list_creator_milp.py`: Contain MILP solver
 
-
-## PKL Files
-
-data_summary.pkl: Contains number of signal per Tx-Rx for the entire datset
+`data_utilities.py`: Functions to create a new dataset. Also it can be used load the dataset and prepare it for classification
 
 
-IdSig_info.pkl: Contains the google drive links of all files of Full WiSig
+### PKL Files
+
+`data_summary.pkl`: Contains number of signal per Tx-Rx for the entire datset
+
+
+`IdSig_info.pkl`: Contains the google drive links of all files of Full WiSig
