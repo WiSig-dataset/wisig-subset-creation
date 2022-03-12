@@ -3,7 +3,7 @@ Scripts to create new compact subsets using the [WiSig dataset](https://cores.ee
 
 ## Citation
 If you use this code in your research please cite
-> S. Hanna, S. Karunaratne, and D. Cabric, “WiSig: A Large-Scale WiFi Signal Dataset for Receiver and Channel Agnostic RF Fingerprinting,” arXiv:2112.15363 [eess], Dec. 2021, Accessed: Jan. 03, 2022. [Online]. Available: http://arxiv.org/abs/2112.15363
+> S. Hanna, S. Karunaratne and D. Cabric, "WiSig: A Large-Scale WiFi Signal Dataset for Receiver and Channel Agnostic RF Fingerprinting," in IEEE Access, vol. 10, pp. 22808-22818, 2022, doi: 10.1109/ACCESS.2022.3154790.
 
 ## Requirement
 The MILP solver requires a GUROBI Licence
